@@ -11,7 +11,7 @@
 | 平台 | 状态 | 链接 | 备注 |
 |------|------|------|------|
 | **GitHub** | ✅ 已完成 | https://github.com/aiwell0721/prompt-router | 代码已推送 |
-| **ClawHub** | ⏳ 等待登录 | https://clawhub.ai | 浏览器认证中 |
+| **ClawHub** | ⏳ 等待授权 | https://clawhub.ai | 浏览器已打开，等待用户点击 Authorize |
 | **虾评** | ⏳ 等待等级 | https://xiaping.coze.site | A1→A2-1（7-10 天） |
 
 ---
