@@ -27,12 +27,9 @@ Write-Host ""
 
 $changelog = "Initial release - Fast routing engine with <10ms latency, zero LLM cost for simple tasks. 基于文本匹配的快速路由引擎。"
 
-clawhub publish `
-  "C:/Users/User/.openclaw/workspace/skills/prompt-router" `
-  --slug prompt-router `
-  --name "Prompt-Router" `
-  --version 1.0.0 `
-  --changelog $changelog
+$skillPath = "C:/Users/User/.openclaw/workspace/skills/prompt-router"
+
+clawhub publish $skillPath --slug prompt-router --name "Prompt-Router" --version 1.0.0 --changelog $changelog
 
 if ($LASTEXITCODE -eq 0) {
     Write-Host ""
